@@ -1,0 +1,225 @@
+body {
+  background: rgb(0, 0, 0);
+  /* background: linear-gradient(to right, #a9def0, #00B4DB);
+    color: #514B64; */
+  min-height: 100vh;
+}
+
+.Heading {
+  height: 200px;
+  width: 100%;
+}
+
+.headText {
+  padding-top: 45px;
+  text-align: center;
+  margin-top: 100px;
+  margin: auto;
+  width: 50%;
+  font-family: sans-serif;
+  color: white;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.subText {
+  padding-top: 15px;
+  text-align: center;
+  margin-top: 80px;
+  margin: auto;
+  width: 50%;
+  font-family: sans-serif;
+  color: white;
+  font-size: 20px;
+  font-weight: 100;
+}
+
+.leftCard {
+  height: 645px;
+  width: 340px;
+  background-color: white;
+  margin-left: 180px;
+  border: 1px solid white;
+  border-radius: 2rem;
+  box-shadow: white;
+  margin-top: 65px;
+}
+
+.planName {
+  font-size: 18px;
+  height: 40px;
+  padding-top: 50px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-family: sans-serif;
+  font-weight: 550;
+  line-height: 21px;
+  font-stretch: 100%;
+  font-style: normal;
+}
+
+
+.priceCards{
+  display: flex;
+    height: 800px;
+}
+.rate {
+  display: flex;
+  height: 50px;
+  width: 100%;
+}
+.price {
+  margin-top: 35px;
+  margin-left: 98px;
+  text-align: center;
+  display: flex;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.per {
+  margin-left: 8px;
+  display: flex;
+  font-size: 20px;
+  font-weight: 100;
+  text-align: center;
+  margin-top: 55px;
+}
+
+hr {
+    margin-top: 60px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 4px solid #000;
+    width: 80px;
+    box-shadow: black;
+}
+
+.points {
+  padding-top: 10px;
+  width: 100%;
+  height: max-content;
+}
+
+.span{
+    font-weight: 600;
+    margin-left: 20px;
+    padding-right: 10px;
+}
+.point1, .point2, .point3 {
+    line-height: 50px;
+    word-spacing: 0px;
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: sans-serif;
+    text-transform: initial;
+    list-style: none;
+    margin-left: -15px;
+}
+
+
+.lbutton {
+    margin-top: 110px;
+    text-align: center;
+    min-height: 10px;
+    font-family: Nunito, sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    background: rgb(46, 48, 48);
+    border: none;
+    border-radius: 1000px;
+    box-shadow: rgb(48 49 49 / 64%) 12px 12px 24px;
+    cursor: pointer;
+    outline: none;
+    position: relative;
+    padding: 20px;
+    width: 320px;
+    margin-left: 10px;
+}
+
+
+
+
+.middlecard{
+  height: 645px;
+  width: 340px;
+  background-color: white;
+  margin-left: 244px;
+  border: 1px solid white;
+  border-radius: 2rem;
+  box-shadow: white;
+  margin-top: 65px;
+
+}
+
+.middlecard .mbutton {
+  margin-top: 50px;
+  text-align: center;
+  min-height: 10px;
+  font-family: 'Nunito', sans-serif;
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 1.3px;
+  font-weight: 700;
+  color: #ffffff;
+  background: #2e3030;
+  border: none;
+  border-radius: 1000px;
+  box-shadow: 12px 12px 24px rgb(48 49 49 / 64%);
+  cursor: pointer;
+  outline: none;
+  position: relative;
+  padding: 20px;
+  width: 320px;
+  margin-left: 10px;
+}
+    
+.point4, .point5 {
+  line-height: 50px;
+  word-spacing: 0px;
+  padding-top: 10px;
+  font-size: 20px;
+  font-weight: 300;
+  font-family: sans-serif;
+  text-transform: initial;
+  list-style: none;
+  margin-left: -15px;
+}
+
+.rightcard{
+  height: 645px;
+  width: 340px;
+  background-color: white;
+  margin-left: 244px;
+  border: 1px solid white;
+  border-radius: 2rem;
+  box-shadow: white;
+  margin-top: 65px;
+}
+
+.rightcard .rbutton {
+  margin-top: -5px;
+  text-align: center;
+  min-height: 10px;
+  font-family: 'Nunito', sans-serif;
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 1.3px;
+  font-weight: 700;
+  color: #ffffff;
+  background: #2e3030;
+  border: none;
+  border-radius: 1000px;
+  box-shadow: 12px 12px 24px rgb(48 49 49 / 64%);
+  cursor: pointer;
+  outline: none;
+  position: relative;
+  padding: 20px;
+  width: 320px;
+  margin-left: 10px;
+}
